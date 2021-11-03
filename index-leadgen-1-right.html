@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+	<!-- Meta
+	============================================= -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1, max-scale=1">
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="css/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
+
+	<!-- Favicon
+	============================================= -->
+	<link rel="shortcut icon" href="images/general-elements/favicon/favicon.png">
+	<link rel="apple-touch-icon" href="images/general-elements/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/general-elements/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/general-elements/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Title
+	============================================= -->
+	<title>Bash Tech</title>
+
+</head>
+
+<body>
+
+	<div id="scroll-progress"><span class="scroll-percent"></span></div>
+
+	<!-- Loading Progress
+	============================================= -->	
+    <div id="loading-progress">
+		<a class="logo" href="#">
+			<img src="images/files/logo-header.png" data-logo-alt="images/files/logo-header-alt.png" alt="">
+			<h3><span class="colored">Bash Tech</span></h3>
+			<span>All your Phone Deals</span>
+		</a><!-- .logo end -->
+      	<div class="lp-content">
+	        <div class="lp-counter">
+	        	Loading
+	        	<div id="lp-counter">0%</div>
+	        </div><!-- .lp-counter end -->
+	        <div class="lp-bar">
+		        <div id="lp-bar"></div>
+	        </div><!-- .lp-bar end -->
+      	</div><!-- .lp-content end -->
+    </div><!-- #loading-progress end -->
+
+	<!-- Document Full Container
+	============================================= -->
+	<div id="full-container">
+
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="style-1 anim-moveleft-seq" data-move-distance="0" data-scroll-index="0">
+
+			<div id="header-wrap">
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+
+							<a class="logo logo-header" href="#">
+								<img src="images/files/logo-header.png" data-logo-alt="images/files/logo-header-alt.png" alt="">
+								<h3><span class="colored">Bash Tech</span></h3>
+								<span>All Phone Deals</span>
+							</a><!-- .logo end -->
+							<div class="header-menu-and-meta">
+								<ul id="main-menu" class="main-menu">
+									<li><a data-scroll-nav="0" href="#header">Home</a></li>
+									<li><a data-scroll-nav="1" href="#fun-facts">About Us</a></li>
+									<li><a data-scroll-nav="2" href="#fun-facts">Our Services</a></li>
+									<li><a data-scroll-nav="3" href="#clients-testmonials">Our Clients</a></li>
+<!--									<li><a data-scroll-nav="4" href="#cta-title-1">Get It Now</a></li>-->
+								</ul>
+								<div class="header-meta">
+									<div class="hm-content">
+										<a class="header-btn scroll-to btn small colorful hover-white" href="#cta-title-1">Order Now</a>
+									</div><!-- .hm-content end -->
+								</div><!-- .header-meta end -->								
+								<div class="mobile-menu-btn hamburger hamburger--slider">
+									<span class="hamburger-box">
+										<span class="hamburger-inner"></span>
+									</span>
+								</div><!-- .mobile-menu-btn -->
+								<!-- <div class="clearfix"></div> -->
+							</div><!-- .header-menu-and-meta end -->
+
+						</div><!-- .col-md-12 end -->
+					</div><!-- .row end -->
+				</div><!-- .container end -->
+
+				<div id="mobile-menu-wrap">
+					
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<div id="mobile-menu"></div><!-- #mobile-menu end -->
+							</div><!-- .col-md-12 end -->
+						</div><!-- .row end -->
+					</div><!-- .container end -->
+
+				</div><!-- #mobile-menu-wrap end -->
+
+			</div><!-- #header-wrap end -->
+
+		</header><!-- #header end -->
+
+		<!-- Banner
+		============================================= -->
+		<section id="banner" class="rounded-bottom" data-scroll-index="0">
+
+			<div class="banner-parallax">
+				<img src="images/files/parallax-bg/img-14.jpg" alt="">
+				<div class="overlay-colored" data-bg-color="#000" data-bg-color-opacity="0.7"></div><!-- .overlay-colored end -->
+				<div class="slide-content">
+
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8">
+
+								<div class="banner-center-box text-white">
+									<h1 class=" anim-movebottom-seq">
+										<span class="colored">Bash Tech.</span>
+										<br>
+										It's Time For All Your Phone Deals
+									</h1>
+									<div class="description anim-movebottom-seq">
+										Lorem Ipsum is simply dummy text of the printing and type
+										<br>
+										setting industry. text ever since the 1500s.
+									</div>
+								</div><!-- .banner-center-box end -->
+
+							</div><!-- .col-md-8 end -->
+							<div class="col-md-4">
+
+								<div class="banner-center-box">
+									<div class="box-header-form bh-form-1 anim-movebottom-seq" data-move-distance="80">
+										<h3 class="colored">Order Now</h3>
+										<p>Fill Your Order Details</p>
+										<form id="header-form-1">
+											<div class="hf1-notifications">
+												<div class="hf1-notifications-content"></div>
+											</div><!-- .hf1-notifications end -->
+											<div class="form-group">
+												<input type="text" name="hf1Name" id="hf1Name" class="form-control" placeholder="Your Name">
+											</div><!-- .form-group end -->
+											<div class="form-group">
+												<input type="text" name="hf1Email" id="hf1Email" class="form-control" placeholder="Phone Number">
+											</div><!-- .form-group end -->
+											<div class="form-group">
+												<input type="text" name="hf1PhoneNum" id="hf1PhoneNum" class="form-control" placeholder="Your Phone Order">
+											</div><!-- .form-group end -->
+											<div class="form-group">
+												<input type="submit" class="form-control" value="Order Now">
+												<span class="form-note"><i class="fa fa-info-circle"></i>We will call when we receive the request</span>
+											</div><!-- .form-group end -->
+										</form><!-- #header-form-1 end -->
+									</div><!-- .box-header-form end -->
+								</div><!-- .banner-center-box end -->
+							
+							</div><!-- .col-md-4 end -->
+						</div><!-- .row end -->
+					</div><!-- .container end -->
+
+				</div><!-- .slide-content end -->
+				<div class="separator-bottom"></div>
+			</div><!-- .banner-parallax end -->
+
+		</section><!-- #banner end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div id="content-wrap">
+
+				<!-- === Fun Facts =========== -->
+				<div id="fun-facts" class="flat-section" data-scroll-index="1">
+
+					<div class="section-content">
+
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2">
+								
+									<div class="section-title text-center">
+										<h2>Why you will choose us?</h2>
+										<p>
+											Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has
+											<br>
+											been standard dummy text ever since the 1500s
+										</p>
+									</div><!-- .section-title end -->
+								
+								</div><!-- .col-md-8 end -->
+								<div class="col-md-12">
+								
+									<div class="fun-facts-boxes">
+										<div class="box-counter anim-movebottom-seq text-center">
+											<div class="bc-content">
+												<h1><span class="counter-stats">277</span></h1>
+												<h5>Phones Sold</h5>
+											</div><!-- .bc-content end -->
+										</div><!-- .box-counter end -->
+										<div class="box-counter anim-movebottom-seq text-center">
+											<div class="bc-content">
+												<h1><span class="counter-stats">80</span></h1>
+												<h5>Trusted Customers</h5>
+											</div><!-- .bc-content end -->
+										</div><!-- .box-counter end -->
+										<div class="box-counter anim-movebottom-seq text-center">
+											<div class="bc-content">
+												<h1><span class="counter-stats">27</span></h1>
+												<h5>Clients</h5>
+											</div><!-- .bc-content end -->
+										</div><!-- .box-counter end -->
+										<div class="box-counter anim-movebottom-seq text-center">
+											<div class="bc-content">
+												<h1><span class="counter-stats">550</span></h1>
+												<h5>Clients</h5>
+											</div><!-- .bc-content end -->
+										</div><!-- .box-counter end -->
+									</div><!-- .fun-facts-boxes end -->
+								
+								</div><!-- .col-md-12 end -->
+							</div><!-- .row end -->
+						</div><!-- .container end -->
+
+					</div><!-- .section-content end -->
+
+				</div><!-- .flat-section end -->
+
+				<!-- === Service Features =========== -->
+				<div id="service-features" class="parallax-section" data-scroll-index="1" data-parallax-bg-img="img-37.jpg" data-stellar-background-ratio="0.2">
+
+					<div class="overlay-colored" data-bg-color="#000" data-bg-color-opacity="0.4"></div><!-- .overlay-colored end -->
+					<div class="section-content">
+
+						<div class="container">
+							<div class="row">
+								<div class="col-md-4">
+								
+									<div class="box-info box-info-1 text-white mb-50 anim-scaledown-seq">
+										<div class="box-icon icon x2 colorful-icon mr-20"><i class="icon-lightbulb"></i></div>
+										<div class="box-content">
+											<h4 class="capitalized">Samsung</h4>
+											<p>
+												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indust.
+											</p>
+										</div><!-- .box-content end -->
+									</div><!-- .box-info-1 end -->
+								
+								</div><!-- .col-md-4 end -->
+								<div class="col-md-4">
+								
+									<div class="box-info box-info-1 text-white mb-50 anim-scaledown-seq">
+										<div class="box-icon icon x2 colorful-icon mr-20"><i class="icon-tools"></i></div>
+										<div class="box-content">
+											<h4 class="capitalized">iPhones</h4>
+											<p>
+												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indust.
+											</p>
+										</div><!-- .box-content end -->
+									</div><!-- .box-info-1 end -->
+								
+								</div><!-- .col-md-4 end -->
+								<div class="col-md-4">
+								
+									<div class="box-info box-info-1 text-white mb-50 anim-scaledown-seq">
+										<div class="box-icon icon x2 colorful-icon mr-20"><i class="icon-layers"></i></div>
+										<div class="box-content">
+											<h4 class="capitalized">Swaps</h4>
+											<p>
+												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indust.
+											</p>
+										</div><!-- .box-content end -->
+									</div><!-- .box-info-1 end -->
+								
+								</div><!-- .col-md-4 end -->
+								<div class="col-md-4">
+								
+									<div class="box-info box-info-1 text-white mb-md-50 anim-scaledown-seq">
+										<div class="box-icon icon x2 colorful-icon mr-20"><i class="icon-strategy"></i></div>
+										<div class="box-content">
+											<h4 class="capitalized">iPhones</h4>
+											<p>
+												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indust.
+											</p>
+										</div><!-- .box-content end -->
+									</div><!-- .box-info-1 end -->
+								
+								</div><!-- .col-md-4 end -->
+								<div class="col-md-4">
+								
+									<div class="box-info box-info-1 text-white mb-md-50 anim-scaledown-seq">
+										<div class="box-icon icon x2 colorful-icon mr-20"><i class="icon-gears"></i></div>
+										<div class="box-content">
+											<h4 class="capitalized">Samsung</h4>
+											<p>
+												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indust.
+											</p>
+										</div><!-- .box-content end -->
+									</div><!-- .box-info-1 end -->
+								
+								</div><!-- .col-md-4 end -->
+								<div class="col-md-4">
+								
+									<div class="box-info box-info-1 text-white anim-scaledown-seq">
+										<div class="box-icon icon x2 colorful-icon mr-20"><i class="icon-chat"></i></div>
+										<div class="box-content">
+											<h4 class="capitalized">Swaps</h4>
+											<p>
+												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indust.
+											</p>
+										</div><!-- .box-content end -->
+									</div><!-- .box-info-1 end -->
+								
+								</div><!-- .col-md-4 end -->
+							</div><!-- .row end -->
+						</div><!-- .container end -->
+
+					</div><!-- .section-content end -->
+
+				</div><!-- .parallax-section end -->
+
+				
+
+				<!-- === Clients Testmonials =========== -->
+				<div id="clients-testmonials" class="flat-section" data-scroll-index="3">
+
+					<div class="section-content">
+
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2">
+								
+									<div class="section-title text-center">
+										<h2>Our Best Clients</h2>
+										<p>
+											Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has
+											<br>
+											been standard dummy text ever since the 1500s
+										</p>
+									</div><!-- .section-title end -->
+								
+								</div><!-- .col-md-8 end -->
+								<div class="col-md-12">
+
+									<div class="testmonials-slider">
+										<ul class="owl-carousel">
+											<li>
+												<div class="slide">
+													<div class="testmonial-single-1">
+														<span class="quote-sign">“</span>
+														<div class="ts-content">
+															“Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been standard dummy text ever since the 1500s.”
+														</div><!-- .ts-content end -->
+														<div class="ts-person">
+															<h5>Nasdan</h5>
+															<span>Nasdan</span>
+														</div><!-- .ts-person end -->
+													</div><!-- .testmonial-single-1 -->
+												</div><!-- .slide end -->
+											</li>
+											<li>
+												<div class="slide">
+													<div class="testmonial-single-1">
+														<span class="quote-sign">“</span>
+														<div class="ts-content">
+															“Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been standard dummy text ever since the 1500s.”
+														</div><!-- .ts-content end -->
+														<div class="ts-person">
+															<h5>Nasdan</h5>
+															<span>Nasdan</span>
+														</div><!-- .ts-person end -->
+													</div><!-- .testmonial-single-1 -->
+												</div><!-- .slide end -->
+											</li>
+											<li>
+												<div class="slide">
+													<div class="testmonial-single-1">
+														<span class="quote-sign">“</span>
+														<div class="ts-content">
+															“Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been standard dummy text ever since the 1500s.”
+														</div><!-- .ts-content end -->
+														<div class="ts-person">
+															<h5>Nasdan</h5>
+															<span>Nasdan</span>
+														</div><!-- .ts-person end -->
+													</div><!-- .testmonial-single-1 -->
+												</div><!-- .slide end -->
+											</li>
+										</ul>
+									</div><!-- .testmonials-slider end -->
+
+								</div><!-- .col-md-12 end -->
+							</div><!-- .row end -->
+						</div><!-- .container end -->
+
+					</div><!-- .section-content end -->
+
+				</div><!-- .flat-section end -->
+
+				<!-- === CTA Title 1 =========== -->
+				<div id="cta-title-1" class="flat-section" data-scroll-index="4">
+				
+					<div class="section-content">
+				
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+
+									<div class="box-cta text-center">
+										<img src="images/files/logo-header.png" alt="">
+										<h1><span class="colored">Bash Tech.</span> It's Time For Better phones</h1>
+										<p>
+											Lorem Ipsum is simply dummy text of the printing and typesetting
+											<br>
+											industry. text ever since the 1500s.
+										</p>
+										<a class="btn scroll-top large colorful hover-dark" href="#">Sign Up Now</a>
+										<img class="shape-1 anim-moveleft-seq" src="images/files/cta-title-shape-1.png" alt="" data-move-duration="2000">
+										<img class="shape-2 anim-moveright-seq" src="images/files/cta-title-shape-2.png" alt="" data-move-duration="2000">
+										<img class="shape-3 anim-moveleft-seq" src="images/files/cta-title-shape-3.png" alt="" data-move-duration="2000">
+										<img class="shape-4 anim-moveright-seq" src="images/files/cta-title-shape-4.png" alt="" data-move-duration="2000">
+									</div><!-- .box-cta end -->
+
+								</div><!-- .col-md-12 end -->
+							</div><!-- .row end -->
+						</div><!-- .container end -->
+				
+					</div><!-- .section-content end -->
+				
+				</div><!-- .flat-section end -->
+
+			</div><!-- #content-wrap -->
+
+		</section><!-- #content end -->
+
+		<!-- Footer Mini
+		============================================= -->
+		<footer id="footer-mini">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+
+						<div class="copyrights-message text-white">2021 © <strong>Bash Tech</strong>. All rights reserved.</div>
+						<ul class="social-icons rounded x5 dark hover-dark animated">
+							<li><a class="si-facebook" href="#"><i class="fa fa-facebook"></i><i class="fa fa-facebook"></i></a></li>
+							<li><a class="si-twitter" href="#"><i class="fa fa-twitter"></i><i class="fa fa-twitter"></i></a></li>
+							<li><a class="si-behance" href="#"><i class="fa fa-behance"></i><i class="fa fa-behance"></i></a></li>
+						</ul><!-- .social-icons end -->
+
+					</div><!-- .col-md-12 end -->
+				</div><!-- .row end -->
+			</div><!-- .container end -->
+
+		</footer><!-- #footer-mini end -->
+
+	</div><!-- #full-container end -->
+
+	<a class="scroll-top-icon scroll-top" href="#"><i class="fa fa-angle-up"></i></a>
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/jRespond.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.waitforimages.min.js"></script>
+	<script src="js/jquery.transit.min.js"></script>
+	<script src="js/jquery.fitvids.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.mb.YTPlayer.min.js"></script>
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/simple-scrollbar.min.js"></script>
+	<script src="js/superfish.js"></script>
+	<script src="js/scrollIt.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src='js/functions.js'></script>
+
+</body>
+</html>
